@@ -33,6 +33,7 @@ img {
   --adress-color: rgba(255, 255, 255, 0.6);
   --categorie-color: #eeeeee;
   --button-color: #188ce8;
+  --icon-color: #afb1b8;
 }
 .container {
   width: 1200px;
@@ -287,6 +288,24 @@ body {
 .our-team-list {
   display: flex;
 }
+.worker-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.worker-icon {
+  width: 44px;
+  height: 44px;
+  background-color: var(--bacnd-color);
+  border-radius: 50%;
+  fill: var(--icon-color);
+}
+.worker-link:hover .worker-icon,
+.worker-link:focus .worker-icon {
+  background-color: var(--secondary-color);
+  fill: var(--bacnd-color);
+}
+
 .list-content-team {
   background-color: var(--bacnd-color);
   border-radius: 0px 0px 4px 4px;
@@ -299,8 +318,7 @@ body {
   margin-right: 30px;
 }
 .worker-box {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 30px 32px;
 }
 .worker-title {
   font-weight: 500;
@@ -317,6 +335,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primyry-text-color);
+
+  margin-bottom: 16px;
 }
 /* Подвал */
 .footr {
@@ -358,6 +378,40 @@ body {
 }
 .second-adres:focus {
   color: var(--secondary-color);
+}
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--bacnd-color);
+}
+.networks {
+  margin-left: 70px;
+}
+.networks-list {
+  display: flex;
+  align-items: center;
+}
+.networks-icon {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--bacnd-color);
+
+  margin-right: 10px;
+}
+.networks-link:focus .networks-icon,
+.networks-link:hover .networks-icon {
+  background-color: var(--secondary-color);
+}
+.cont-footer {
+  display: flex;
+  align-items: baseline;
 }
 /* Категории */
 
