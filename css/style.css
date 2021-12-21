@@ -338,6 +338,15 @@ body {
 
   margin-bottom: 16px;
 }
+/* Клиенты */
+.our-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* Подвал */
 .footr {
   background-color: var(--hero-foot-color);
