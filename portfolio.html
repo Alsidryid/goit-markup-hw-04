@@ -27,9 +27,19 @@
                 </ul>
             </nav>
             <ul class="contacts-list list">
-                <li class="headr-list-content"><a class="headers-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="headr-list-content"><a class="headers-contacts link" href="mailto:info@devstudio.com">
+                        <svg class="headers-contacts-icon">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
-                <li class="headr-list-content"><a class="headers-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="headr-list-content"><a class="headers-contacts link" href="tel:+380961111111">
+                        <svg class="headers-contacts-tel">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a></li>
             </ul>
         </div>
     </header>
@@ -141,19 +151,52 @@
     </main>
     <!--Подвал-->
     <footer class="footr">
-        <div class="container">
-           <a class="logo footers-logo link" href="./index.html">
-                <span class="web">Web</span>Studio
-            </a>
-            <address class="adres">
-                <ul class="adres-list list">
-                    <li class="footr-list-content"><a class="fact-adres link" href="https://goo.gl/maps/tWHg3Sb9LDnPVepB7"
-                            target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="footr-list-content"><a class="second-adres link" href="mailto:info@example.com">info@example.com</a>
+        <div class="container cont-footer">
+            <div class="nav-box">
+                <a class="logo footers-logo link" href="./index.html">
+                    <span class="web">Web</span>Studio
+                </a>
+                <address class="adres">
+                    <ul class="adres-list list">
+                        <li class="footr-list-content"><a class="fact-adres link" href="https://goo.gl/maps/tWHg3Sb9LDnPVepB7"
+                                target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="footr-list-content"><a class="second-adres link"
+                                href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="footr-list-content"><a class="second-adres link" href="tel:+380991111111">+38 099 111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="networks">
+                <h3 class="footer-title">Присоединяйтесь</h3>
+                <ul class="networks-list list">
+                    <li>
+                        <a class="networks-link link" href=""><svg class="networks-icon">
+                                <use href="../images/icons.svg#icon-insta"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footr-list-content"><a class="second-adres link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li>
+                        <a class="networks-link link" href=""><svg class="networks-icon">
+                                <use href="../images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="networks-link link" href=""><svg class="networks-icon">
+                                <use href="../images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="networks-link link" href=""><svg class="networks-icon">
+                                <use href="../images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+        
+            </div>
         </div>
     </footer>
     
