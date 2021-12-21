@@ -294,15 +294,25 @@ body {
   justify-content: space-between;
 }
 .worker-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
+}
+.worker-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   background-color: var(--bacnd-color);
   border-radius: 50%;
-  fill: var(--icon-color);
+}
+.worker-link:hover,
+.worker-link:focus {
+  background-color: var(--secondary-color);
 }
 .worker-link:hover .worker-icon,
 .worker-link:focus .worker-icon {
-  background-color: var(--secondary-color);
   fill: var(--bacnd-color);
 }
 
@@ -440,18 +450,25 @@ body {
   align-items: center;
 }
 .networks-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--bacnd-color);
+}
+.networks-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--bacnd-color);
-
   margin-right: 10px;
 }
-.networks-link:focus .networks-icon,
-.networks-link:hover .networks-icon {
+.networks-link:focus,
+.networks-link:hover {
   background-color: var(--secondary-color);
 }
+
 .cont-footer {
   display: flex;
   align-items: baseline;
